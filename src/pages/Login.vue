@@ -15,14 +15,14 @@
             <fg-input
               class="no-border input-lg"
               addon-left-icon="now-ui-icons users_circle-08"
-              placeholder="First Name..."
+              placeholder="CPF"
             >
-            </fg-input>
-
+            </fg-input>            
             <fg-input
               class="no-border input-lg"
               addon-left-icon="now-ui-icons text_caps-small"
-              placeholder="Last Name..."
+              placeholder="CEP"
+              v-model="inputVal"
             >
             </fg-input>
 
@@ -63,7 +63,13 @@ export default {
     MainFooter,
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
+  },
+  data() {
+      return {
+        CPF: ''
+      }
   }
+  
 };
 </script>
 <style></style>

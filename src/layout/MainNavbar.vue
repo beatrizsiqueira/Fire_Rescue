@@ -8,7 +8,7 @@
   >
     <template slot-scope="{ toggle, isToggled }">
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        Now Ui Kit
+        FIRESCUE
       </router-link>
       <el-popover
         ref="popover1"
@@ -18,24 +18,37 @@
         trigger="hover"
       >
         <div class="popover-body">
-          Designed by Invision. Coded by Creative Tim
+          Preventing Fire
         </div>
       </el-popover>
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
-        <a
-          class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
-          target="_blank"
-        >
-          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Download</p>
-        </a>
+          <a
+            class="nav-link"
+            href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
+            target="_blank"
+          >
+          <i class="now-ui-icons arrows-1_share-66"></i>
+          <p>Home</p>
+          </a>
+        
       </li>
+      <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
+            target="_blank"
+          >
+          <i class="now-ui-icons arrows-1_share-66"></i>
+          <p>Linha do Tempo</p>
+          </a>
+        
+      </li>
+      
       <drop-down
         tag="li"
-        title="Components"
+        title="Tools"
         icon="now-ui-icons design_app"
         class="nav-item"
       >
@@ -52,7 +65,7 @@
       </drop-down>
       <drop-down
               tag="li"
-              title="Examples"
+              title="Options"
               icon="now-ui-icons design_image"
               class="nav-item"
       >
