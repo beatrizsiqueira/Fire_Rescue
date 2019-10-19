@@ -8,24 +8,19 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
+            <a href="">
+              Firescure
             </a>
           </li>
           <li>
-            <a href="https:///presentation.creative-tim.com">
-              About Us
-            </a>
-          </li>
-          <li>
-            <a href="https:///blog.creative-tim.com">
-              Blog
+            <a href="">
+              Sobre
             </a>
           </li>
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, Designed by
+        &copy; {{ year }}, Desenvolvido por:
         <a href="https:///www.invisionapp.com" target="_blank" rel="noopener"
           >Invision</a
         >. Coded by
